@@ -18,7 +18,7 @@ token = config.get("bot", "token")
 admin_group = int(config.get("bot", "admin_group"))
 dest_chan = int(config.get("bot", "dest_chan"))
 
-review_rep_resp = "As a reply to this message send me the final confession to be posted."
+review_rep_resp = "Send me the final confession to be posted as a reply to this message."
 
 bot = Client(
     session_name="confessionmvbot",
